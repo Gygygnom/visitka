@@ -1,0 +1,466 @@
+body{
+    font-family: arial, sans-serif;
+    }
+    
+    nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+    position: fixed;
+    z-index: 100;
+    }
+    .name{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    animation: comming 2s ease;
+    }
+    .menu{
+    float: left;
+    z-index: 2;
+    }
+    
+    .menu li{
+    float:left;
+    line-height:60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    animation: topshift 0.4s ease forwards;
+    opacity: 0;
+    font-family: 'FranklinGot' sans-serif;
+    }
+    body{
+    font-family: arial, sans-serif;
+    }
+    
+    nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+    position: fixed;
+    z-index: 100;
+    }
+    
+    .preloader {
+    /*фиксированное позиционирование*/
+    position: fixed;
+    /* координаты положения */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* фоновый цвет элемента */
+    background: #e0e0e0;
+    /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+    z-index: 1001;
+    }
+    
+    .preloader__row {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+    }
+    
+    .preloader__item {
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    background-color: #337ab7;
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    animation: preloader-bounce 2s infinite ease-in-out;
+    }
+    
+    .preloader__item:last-child {
+    top: auto;
+    bottom: 0;
+    animation-delay: -1s;
+    }
+    
+    @keyframes preloader-rotate {
+    100% {
+    transform: rotate(360deg);
+    }
+    }
+    
+    @keyframes preloader-bounce {
+    
+    0%,
+    100% {
+    transform: scale(0);
+    }
+    
+    50% {
+    transform: scale(1);
+    }
+    }
+    
+    .loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+    }
+    
+    .loaded .preloader {
+    display: none;
+    }
+    
+    .name{
+    color: #fff;
+    font-size: 28px;
+    line-height: 60px;
+    animation: comming 2s ease;
+    }
+    
+    @keyframes comming{
+    from{
+    opacity: 0;
+    }
+    
+    to{
+    opacity: 1;
+    }
+    }
+    
+    @keyframes topshift{
+    from{
+    opacity: 0;
+    margin-top: -80px;
+    }
+    
+    to{
+    opacity: 1;
+    margin-top: 0px;
+    }
+    }
+    
+    @keyframes titlemove{
+    from{
+    opacity: 0;
+    }
+    
+    to{
+    opacity: 1;
+    }
+    }
+    
+    .menu{
+    float: left;
+    z-index: 2;
+    }
+    
+    .menu li{
+    float:left;
+    line-height:60px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    animation: topshift 0.4s ease forwards;
+    opacity: 0;
+    font-family: 'FranklinGot' sans-serif;
+    }
+    
+    .menu li a:active{
+    transform: scale(1.1);
+    }
+    
+    .menu li a{
+    transition-duration: 0.2s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+    text-decoration: none;
+    }
+    
+    .menu li a:hover{
+    color: #e88604;
+    display: inline-block;
+    }
+    
+    .menu li:nth-child(2){
+    animation-delay: 0.4s;
+    }
+    
+    .menu li:nth-child(3){
+    animation-delay: 0.8s;
+    }
+    
+    .menu li:nth-child(4){
+    animation-delay: 1.2s;
+    }
+    
+    .menu li:nth-child(5){
+    animation-delay: 1.6s;
+    }
+    
+    .menu li:nth-child(6){
+    animation-delay: 2s;
+    }
+    
+    .menu li:nth-child(7){
+    animation-delay: 2s;
+    }
+    
+    
+    .main{
+        width: 100%;
+        height: 720px;
+        background: url(../image/Delovooy.jpg) center/cover no-repeat;
+    }
+    .title{
+        padding-top: 300px;
+        text-align: center;
+        
+    }
+    .me{
+        color: black;
+        margin-top: 40px;
+        background-color: white;
+        border-radius: 10px;
+        border: 2px solid #344051;
+        width: 30%;
+        height: 60px;
+    }
+    .works{
+        color: black;
+        margin-top: 40px;
+        background-color: white;
+        border: 2px solid #344051;
+        border-radius: 10px;
+        width: 10%;
+        height: 50px;
+    }
+    .sec2{
+        width: 100%;
+    }
+    .img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-top: 50px;
+    }
+    .info{
+        box-sizing: border-box;
+    }
+    .info h2{
+        font-size: 30px;
+    font-weight: bold;
+    color: #263244;
+    margin-bottom: 50px;;
+    margin-top: 100px;
+    text-align: center;
+    }
+    .line{
+        border-bottom:6px solid #b92753;
+        width: 100px;
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+        margin:0 auto;
+    }
+    .info p{
+        padding: 35px;
+    }
+    .sec3{
+        width: 100%;
+        background: url(../image/komp.jpg) center/cover no-repeat;
+    }
+    .what_i_do p{
+        font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    }
+    .bitch{
+        font-size: 30px;
+        font-weight: bold;
+        color: #ffffff;
+        margin-bottom: 40px;
+        margin-top: 50px;
+        text-align: center; 
+    }
+    .icons{
+        color: white;
+    }
+    .sec4{
+        width: 100%;
+        height: 850px;
+    }
+    .raschet{
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 130px;
+        text-align: center; 
+    }
+    .hh4{
+        font-size: 24px;
+        
+        margin-top: 40px;
+    }
+    .calc1{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+        
+        height: 80px;
+    
+    }
+    .spanchik{
+        font-size: 30px;
+        float: right; 
+        margin-top:3px;
+    }
+    .calc{
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+        margin-bottom: 60px;
+        height: 90px;
+        
+    }
+    .calca1{
+        display: block;
+        height: 53px;
+        text-align: left;
+        border: 2px solid #eee;
+        border-radius: 5px;
+        color: #7d7d7d;
+        font-size: 15px;
+        width: 100%;
+        max-width: 100%;
+        background-color: #eee;
+        font-weight: 600;
+        
+    }
+    .white-btn:visited{
+        color: white;
+    }
+    .sec5{
+        width: 100%;
+        
+        background:url(/src/image/pexels-burst-374074.jpg) center/cover no-repeat;
+        background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+
+    .stat{
+        font-size: 30px;
+        font-weight: bold;
+        color: #000000;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    li{
+        list-style-type: none;
+    }
+    .center{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+        
+    }
+    .sec6{
+        width: 100%;
+        background: url(/src/image/seriy.jpg) center/cover no-repeat;
+    }
+    .contacts{
+        font-size: 30px;
+        font-weight: bold;
+        color: #000000;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    }
+    .btn{
+        margin-top: 20px;
+
+    }
+    #emailHelp{
+        color: #000000;
+    }
+    .textarea{
+        border-radius: 5px;
+        width: 100%;
+        height: 100px;
+    }
+    .h4h4{
+        margin-top: 100px;
+    }
+    .map{
+        width: 100%;
+    }
+    @media(max-width:800px){
+        .sec5{
+            width: 100%;
+            background:url(/src/image/pexels-burst-374074.jpg) center/cover no-repeat;
+            background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+        }
+    }
+
+    @media(max-width:490px){
+        .name{
+            font-size: 20px;
+        }
+    }
+
+    @media(max-width:365px){
+        .name{
+            font-size: 15px;
+        }
+    }
+
+    .btn{
+        display: inline;
+    }
+
+    .pidorlexa{
+        text-align: center;
+    }
+
+    .gandonlexa{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .ikonki{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .lexasexy{
+        padding-bottom: 50px;;
+    }

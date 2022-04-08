@@ -1,0 +1,30 @@
+.pla{
+    font-size: 60px;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 13%;
+}
+.sec1{
+    margin-top:40px;
+}
+.p11{
+    font-size:24px;
+    text-align: left;
+    margin-left: 13%;
+}
+.div1{
+    margin-top: 50px;
+}
+.obo{
+    margin-top: 150px;
+    font-size: 24px;
+}
+.sec{
+    background-color: antiquewhite;
+    background-origin: border-box;
+    min-height: 100%;
+}
