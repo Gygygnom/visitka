@@ -1,0 +1,52 @@
+.parallax {
+    /* The image used */
+    background-image: url("../kartinki/mac.jpg");
+    
+  
+    /* Set a specific height */
+    min-height:800px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  
+         
+         
+  }
+  .jub{
+      /* The image used */
+    background-image: url("../kartinki/montain.jpg");
+  
+    /* Set a specific height */
+    min-height: 350px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+  
+  };
+  .main-nav{
+    width: 100%;
+    }
+    .menu-list{ float: left;
+    list-style-type:none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right:25px;
+
+
+    };
+    .logo{ float: left;
+    width: 30%;
+    margin-left:25px;
+    font-size: 20px;
+    line-height: 70px;
+    margin-right: 0px;
+};
